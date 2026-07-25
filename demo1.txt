@@ -1,1 +1,42 @@
-vlsi
+1)go to browser signin the github:-
+       step1: after signin in github page is open top of the page the '+'icon is show.
+       step2: click the icon -> click the new repository.
+       step3:give a repository name.
+       step4: click the create a repository.
+       step5: the new repository is create                 // repository - mean folder.
+       step6: create a file ,give the <file name.txt,py,v,ect> ,give the name in coomit changes. 
+  --------------------Now you create a new file and repository--------------------------
+
+2) again go to browser search the git download:-
+        step1: after the download the git and install it.
+        step2: open the windows comment prompt.
+        step3: type ->git -> press the enter. the lot of line is come then go to the step4.
+        step4: type-> git config --global user.name <"user name">.  
+        step5: type-> git config --global user.email <"email ID">.
+        step6: quit the comment prompt.
+        step7: go to the desktop, create a folder, give the name .
+----------------------Now you create a git---------------------------------------------
+   
+3) install the VS Code:-
+        step1: open the VS Code.
+        step2: click the file.
+        step3: click the open folder.
+        step4: select the folder in desktop ,the folder is already create.
+        step5: now click the view ,then click the terminal,
+the terminal look like the --> PS C:\Users\NS KABILAN\OneDrive\Desktop\gitforvlsi>
+        step6: type this command--> git clone <https://github.com/nskabilan-del/kabilproject1.git>
+        step7: now the repository clone is show in explorer ,after the desktop folder.
+        step8: type the command--> cd <repository name>,click enter
+        step9: click the new file in same folder,name the file . then give file name , the "U" is show the U-->unstage.
+        step10: then type this command--> git add demo2.txt  ,see the file 'U' chang into the 'A'-->add
+        step11: then type this command-->  git status    ,it show like this in terminal
+-->{On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   demo2.txt  } <-- like this
+        step12: now type this command to add the commit in the file --> git commit -m <"demo2.txt file is now added"> <-- like this
+        step13: now push file to the our github page .
+        step14: type the command for push the file--> git push origin main
+------------------------now see the file in github page----------------------------
